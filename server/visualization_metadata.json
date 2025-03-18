@@ -1,0 +1,78 @@
+[
+  {
+    "Chart_Type": "Bar Chart",
+    "Name": "Average Price by Brand",
+    "Description": "This bar chart will display the average price of vehicles for each brand, allowing comparison of price trends across different manufacturers.",
+    "Columns_to_use": [
+      "Brand",
+      "Price"
+    ],
+    "Aggregation": "Average of Price grouped by Brand",
+    "Goal": "To analyze and compare the average pricing of vehicles across different brands."
+  },
+  {
+    "Chart_Type": "Pie Chart",
+    "Name": "Distribution of Fuel Types",
+    "Description": "This pie chart will show the distribution of vehicles based on their fuel type, providing a quick overview of the proportion of each fuel type in the dataset.",
+    "Columns_to_use": [
+      "Fuel_Type"
+    ],
+    "Aggregation": "Count of Fuel_Type",
+    "Goal": "To understand the proportion of different fuel types in the dataset."
+  },
+  {
+    "Chart_Type": "Stacked Bar Chart",
+    "Name": "Transmission Type Distribution by Brand",
+    "Description": "This stacked bar chart will display the distribution of transmission types (Manual, Automatic, Semi-Automatic) for each brand, allowing comparison across brands.",
+    "Columns_to_use": [
+      "Brand",
+      "Transmission"
+    ],
+    "Aggregation": "Count of Transmission grouped by Brand",
+    "Goal": "To analyze the distribution of transmission types across different brands."
+  },
+  {
+    "Chart_Type": "Horizontal Bar Chart",
+    "Name": "Average Mileage by Model",
+    "Description": "This horizontal bar chart will display the average mileage for each vehicle model, allowing comparison of mileage across different models.",
+    "Columns_to_use": [
+      "Model",
+      "Mileage"
+    ],
+    "Aggregation": "Average of Mileage grouped by Model",
+    "Goal": "To analyze and compare the average mileage of different vehicle models."
+  },
+  {
+    "Chart_Type": "Sunburst Chart",
+    "Name": "Brand, Model, and Price Distribution",
+    "Description": "This sunburst chart will display the hierarchical distribution of vehicle prices, starting from the brand level, then drilling down to the model level.",
+    "Columns_to_use": [
+      "Brand",
+      "Model",
+      "Price"
+    ],
+    "Aggregation": "Sum of Price grouped by Brand and Model",
+    "Goal": "To visualize the hierarchical distribution of vehicle prices across brands and models."
+  },
+  {
+    "Chart_Type": "Donut Chart",
+    "Name": "Distribution of Vehicle Doors",
+    "Description": "This donut chart will show the distribution of vehicles based on the number of doors, providing a clear overview of the proportion of vehicles with 2, 3, or 4 doors.",
+    "Columns_to_use": [
+      "Doors"
+    ],
+    "Aggregation": "Count of Doors",
+    "Goal": "To understand the proportion of vehicles with different door counts in the dataset."
+  },
+  {
+    "Chart_Type": "Line Chart",
+    "Name": "Average Engine Size by Year",
+    "Description": "This line chart will display the average engine size of vehicles over different manufacturing years, allowing analysis of trends in engine size over time.",
+    "Columns_to_use": [
+      "Year",
+      "Engine_Size"
+    ],
+    "Aggregation": "Average of Engine_Size grouped by Year",
+    "Goal": "To analyze the trend of average engine size over different manufacturing years."
+  }
+]
